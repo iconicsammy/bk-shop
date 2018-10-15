@@ -1,0 +1,12 @@
+<div class="col-md-8">
+
+  <img src="assets/images/{{picture}}" class="shop_img"/>
+  <p>{{brand}} - {{model}}</p>
+  <p>Price: {{price}} Rwf</p>
+  <p>Size: {{size}}</p>
+  <p>In Stock: {{in_stock}}</p>
+  <p>Date: {{release_date}}</p>
+  <p><app-add-to-cart  [item_id]="item_id" [current_quantity]="in_stock" ></app-add-to-cart></p>
+  <p *ngIf="show_detail_link"><a href="#" [routerLink] = "['/item-detail/', item_id]">Details</a></p>
+
+</div>

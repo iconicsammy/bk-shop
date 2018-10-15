@@ -1,0 +1,221 @@
+
+{
+  "sneakers":
+  [
+      {
+        "name":"Nike",
+        "models":[
+          {
+              "name":"Air Force 1 Mid",
+              "sizes":[
+                {
+                  "size":"9",
+                  "in_stock":10,
+                  "release_date":"2018-09-15",
+                  "price":10.5
+                },
+                {
+                  "size":"8",
+                  "in_stock":3,
+                  "release_date":"2018-10-01",
+                  "price":9
+                },
+                {
+                  "size":"11",
+                  "in_stock":25,
+                  "release_date":"2018-10-12",
+                  "price":10.5
+                }
+
+              ],
+              "pictures":["nike/afmid1.png","nike/afmid2.pngg"]
+              },
+              {
+                "name":"Lunar Force 1 Duckboot Low",
+                "sizes":[
+                  {
+                    "size":"11",
+                    "in_stock":0,
+                    "release_date":"2018-08-01",
+                    "price":25
+                  },
+                  {
+                    "size":"10",
+                    "in_stock":7,
+                    "release_date":"2018-10-05",
+                    "price":20
+                  },
+                  {
+                    "size":"9",
+                    "in_stock":11,
+                    "release_date":"2018-09-29",
+                    "price":21
+                  }
+
+                ],
+                "pictures":["nike/lunarforce1duckboot1.png","nike/lunarforce1duckboot2.png"]
+           },
+                  {
+                    "name":"Air Max 97",
+                    "sizes":[
+                      {
+                        "size":"13",
+                        "in_stock":21,
+                        "release_date":"2018-10-11",
+                        "price":45
+                      },
+                      {
+                        "size":"10",
+                        "in_stock":11,
+                        "release_date":"2018-10-11",
+                        "price":42
+                      },
+                      {
+                        "size":"9",
+                        "in_stock":10,
+                        "release_date":"2018-10-11",
+                        "price":42
+                      },
+                      {
+                        "size":"8.5",
+                        "in_stock":12,
+                        "release_date":"2018-10-11",
+                        "price":40
+                      },
+                      {
+                        "size":"8",
+                        "in_stock":10,
+                        "release_date":"2018-10-11",
+                        "price":4240
+                      },
+                      {
+                        "size":"6",
+                        "in_stock":19,
+                        "release_date":"2018-10-11",
+                        "price":38
+                      }
+
+                    ],
+                    "pictures":["nike/airmax971.png","nike/airmax972.png"]
+              }
+         ]
+
+      },
+
+      {
+        "name":"Converse",
+        "models":[
+          {
+              "name":"Chuck Taylor All Star Low",
+              "sizes":[
+                {
+                  "size":"7",
+                  "in_stock":30,
+                  "release_date":"2018-10-14",
+                  "price":30
+                },
+                {
+                  "size":"9.5",
+                  "in_stock":4,
+                  "release_date":"2018-08-01",
+                  "price":18
+                },
+                {
+                  "size":"11",
+                  "in_stock":20,
+                  "release_date":"2018-10-08",
+                  "price":35
+                }
+
+              ],
+              "pictures":["converse/chucktaylorlow1.png","converse/chucktaylorlow2.png"]
+              },
+              {
+                "name":"Chuck Taylor All Star High",
+                "sizes":[
+                  {
+                    "size":"10",
+                    "in_stock":2,
+                    "release_date":"2018-08-11",
+                    "price":21
+                  },
+                  {
+                    "size":"8",
+                    "in_stock":7,
+                    "release_date":"2018-10-13",
+                    "price":32
+                  },
+                  {
+                    "size":"9",
+                    "in_stock":11,
+                    "release_date":"2018-10-13",
+                    "price":32
+                  }
+
+                ],
+                "pictures":["converse/chucktaylorhigh1.png","converse/chucktaylorhigh2.png"]
+           }
+
+         ]
+
+      },
+      {
+        "name":"Nike React",
+        "models":[
+          {
+              "name":"Nike EXP-E14",
+              "sizes":[
+                {
+                  "size":"12",
+                  "in_stock":7,
+                  "release_date":"2018-07-02",
+                  "price":20
+                },
+                {
+                  "size":"9",
+                  "in_stock":7,
+                  "release_date":"2018-08-10",
+                  "price":18
+                },
+                {
+                  "size":"11",
+                  "in_stock":20,
+                  "release_date":"2018-10-01",
+                  "price":25
+                }
+
+              ],
+              "pictures":["nikereact/expe141.png","nikereact/expe141.png"]
+              },
+              {
+                "name":"Kobe 360",
+                "sizes":[
+                  {
+                    "size":"10",
+                    "in_stock":22,
+                    "release_date":"2018-09-20",
+                    "price":19.5
+                  },
+                  {
+                    "size":"13",
+                    "in_stock":2,
+                    "release_date":"2018-09-09",
+                    "price":21.5
+                  },
+                  {
+                    "size":"9",
+                    "in_stock":1117,
+                    "release_date":"2018-09-20",
+                    "price":18.5
+                  }
+
+                ],
+                "pictures":["nikereact/kobe3601.png","nikereact/kobe3602.png"]
+           }
+
+         ]
+
+      }
+  ]
+
+}

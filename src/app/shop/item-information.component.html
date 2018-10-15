@@ -1,0 +1,49 @@
+<h3>Item Detail</h3>
+
+<a href="#" [routerLink] = "['/']">Back to Home</a>
+
+
+
+<div *ngIf="item_information.item_info==null then not_found else item_info"></div>
+
+<ng-template #not_found>
+  The item you requested was not found. Follow a valid path.
+</ng-template>
+
+<ng-template #item_info>
+
+    <app-shop-item
+    [brand] = "item_information.item_info.brand"
+    [model] = "item_information.item_info.model"
+    [picture] = "item_information.item_info.picture"
+    [price] = "item_information.item_info.price"
+    [size] = "item_information.item_info.size"
+    [in_stock] = "item_information.item_info.in_stock"
+    [item_id] = "item_information.item_info.id"
+    [release_date] = "item_information.item_info.release_date"
+    [show_detail_link]="show_detail_link"
+
+
+
+    ></app-shop-item>
+
+    <h3>Also in {{item_information.item_info.model}}</h3>
+
+    <app-shop-item *ngFor="let item of item_information.similar_items"
+    [brand] = "item.brand"
+    [model] = "item.model"
+    [picture] = "item.picture"
+    [price] = "item.price"
+    [size] = "item.size"
+    [in_stock] = "item.in_stock"
+    [item_id] = "item.id"
+    [release_date] = "item.release_date"
+
+
+
+  ></app-shop-item>
+
+
+
+
+</ng-template>

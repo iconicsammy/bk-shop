@@ -1,0 +1,9 @@
+.header {
+  height: 50px !important;
+  background-color: cyan;
+  color: black;
+  text-align: center;
+}
+.header a, .header a:visited, .header a:active {
+  color: black
+}

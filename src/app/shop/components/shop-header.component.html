@@ -1,0 +1,10 @@
+<div class="row header">
+  <div class="col-md-3">
+    You have {{total_in_cart}} items in the cart. <span *ngIf="total_in_cart>0"><a href="#" [routerLink] = "['/check-out/']">Check Out</a></span>
+  </div>
+
+  <div class="col-md-9">
+    <app-search-items></app-search-items>
+  </div>
+
+</div>

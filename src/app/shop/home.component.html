@@ -1,0 +1,24 @@
+
+<h3>Latest 10 Items in Our Store</h3>
+
+<div class="row">
+
+  <app-shop-item *ngFor="let item of items"
+  [brand] = "item.brand"
+  [model] = "item.model"
+  [picture] = "item.picture"
+  [price] = "item.price"
+  [size] = "item.size"
+  [in_stock] = "item.in_stock"
+  [item_id] = "item.id"
+  [release_date] = "item.release_date"
+  [show_detail_link]="show_detail_link"
+
+
+
+  ></app-shop-item>
+
+
+
+
+</div>
