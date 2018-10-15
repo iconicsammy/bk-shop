@@ -1,27 +1,27 @@
-# Orgizer
+# Sneakers Shop
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
+A simple shop of sneakers :P
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Code scaffolding
+### Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Angular 6
+NodeJS
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Installing
 
-## Running unit tests
+1. Clone the application to your machine
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Run npm install
 
-## Running end-to-end tests
+3. Once libraries are installed start the server by typing ng s
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Reminder
+
+Data is not saved anywhere.
